@@ -24,9 +24,10 @@
 
     Base_layer {
       bindings = <
-        &kp ESCAPE &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSPACE &kp TAB &hm LCTRL A &hm LALT S &hm LGUI D &hm LSHFT F &kp G &kp H &hm RSHFT J &hm RGUI K &hm RALT L &hm RSHFT SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp PERIOD &kp SLASH &kp RETURN &kp LEFT_CONTROL &kp SPACE &lt LOWER SPACE &lt RAISE BACKSPACE &kp RETURN &mo FUNCTION 
+        &kp ESCAPE &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSPACE &kp TAB &hm LCTRL A &hm LALT S &hm LGUI D &hm LSHFT F &kp G &kp H &hm RSHFT J &hm RGUI K &hm RALT L &hm RCTRL SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp PERIOD &kp SLASH &kp RETURN &kp LEFT_CONTROL &kp SPACE &lt LOWER SPACE &lt RAISE BACKSPACE &kp RETURN &mo FUNCTION 
       >;
     };
+
 
     Lower_layer {
       bindings = <

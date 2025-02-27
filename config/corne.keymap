@@ -40,7 +40,6 @@
         &kp ESCAPE &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSPACE &kp TAB &hm LCTRL A &hm LALT S &hm LGUI D &hm LSHFT F &kp G &kp H &hm RSHFT J &hm RALT K &hm RGUI L &hm RSHFT SEMICOLON &kp SINGLE_QUOTE &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp PERIOD &kp SLASH &kp RETURN &kp LEFT_CONTROL &kp SPACE &mo LOWER &mo RAISE &kp RETURN &mo FUNCTION 
       >;
     };
-
 /*
  * ┌───────┬───┬───┬───┬───┬───┐           ┌───┬───┬───┬───┬───┬───────┐
  * │       │ 1 │ 2 │ 3 │ 4 │ 5 │           │ 6 │ 7 │ 8 │ 9 │ 0 │  bksp │
@@ -57,7 +56,7 @@
 
     Lower_layer {
       bindings = <
-        &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp BACKSPACE &trans &trans &trans &trans &trans &trans &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp DEL &trans &trans &trans &trans &trans &trans &trans &kp HOME &kp PG_DN &kp PG_UP &kp END &trans &trans &kp LEFT_GUI &trans &trans &trans &trans &kp RIGHT_ALT 
+        &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp BACKSPACE &trans &trans &trans &trans &trans &trans &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp DEL &trans &trans &trans &trans &trans &trans &trans &kp HOME &kp PG_DN &kp PG_UP &kp END &trans &trans &trans &trans &trans &trans &trans &trans 
       >;
     };
 
@@ -96,7 +95,7 @@
 
     Function_layer {
       bindings = <
-        &trans &kp F1 &kp F2 &kp F3 &kp F4 &trans &trans &kp BACKSPACE &kp UP &kp DEL &trans &trans &trans &kp F5 &kp F6 &kp F7 &kp F8 &trans &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+        &trans &kp F1 &kp F2 &kp F3 &kp F4 &trans &trans &kp BACKSPACE &kp UP &kp DEL &trans &trans &trans &kp F5 &kp F6 &kp F7 &kp F8 &trans &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans &trans &trans &trans &trans &to GAMING &trans &trans &trans &trans &trans &trans 
       >;
     };
 
